@@ -5,8 +5,42 @@
   box-sizing: border-box;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+     background-color:gainsboro;
+}
+.abandon {
+/*
+width:1700px;
+height:5000px;
+font-size: 300px;
+margin-left: 0px;
+*/
+/*    padding-top:800px;*/
+text-align:center;  
+    font-family:"gotham",sans-serif;
+    font-variant: small-caps;
+        color: white;
+    position:fixed;
+    z-index: -1;
+    width: 100%;
+    top: 40%;
+    font-size: 300px;
+    
+    
+}
 
-
+.games {
+    width:1700px;
+height:3000px;
+font-size: 500px;
+text-align:center;  
+    font-family:"gotham",sans-serif;
+    font-variant: small-caps;
+        color:#ffcc33;
+   
+}
 
 /* Start here */
 
