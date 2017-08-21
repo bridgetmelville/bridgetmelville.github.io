@@ -5,8 +5,32 @@
   box-sizing: border-box;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.nextbutton
+{
+margin-right:20px;
+       margin-top:10px;
+    float:right;
+}
 
-
-
+.only {
+        z-index: -1;
+    width: 100%;
+    position:fixed;
+   
+    
+}
+.sentence1 1{
+ z-index=0;
+     
+}
+.sentence2 {
+    z-index=0;
+    
+}
 /* Start here */
 

@@ -5,8 +5,17 @@
   box-sizing: border-box;
 }
 
-
-
+.nextbutton
+{
+    margin-top:10px;
+margin-right:20px;
+    float:right;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
 
 /* Start here */
 

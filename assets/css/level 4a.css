@@ -4,11 +4,6 @@
 * {
   box-sizing: border-box;
 }
-body {
-    margin: 0px;
-    padding: 0px;
-    
-}
 
 .nextbutton
 {
@@ -16,40 +11,126 @@ margin-right:20px;
        margin-top:10px;
     float:right;
 }
-.yume
-{
-    padding-top: 100px;
-    margin-top: 0px;
-width:95px;
-height:95px;
-  border-bottom: 1px solid black;
-     border: 3px solid black;
-    
 
+body {
+    margin: 0px;
+    padding: 0px;
     
-
-    }
-.yume2
-{width:95px;
-height:95px;
-     border: 3px solid black;
-    margin-left: 100px;
-    margin-top: 500px;
 }
-.everything
-{width:100px;
-height:100px;
+
+
+.first-box { 
+display: inline-block;
+width:500px;
+height:250px;
+font-size: 90px;
 margin-left: 500px;
-    margin-top: 0px;
-padding: 50,50,50,50;
-position:fixed;
+    padding-top:10px;
+    padding-left:10px;
+letter-spacing: 10px;
+text-align:center;  
+      background-color:gainsboro;
+    font-family:"gotham",sans-serif;
+    font-variant: small-caps;
+        color: white;
+        
+        
+    
+   
+
 }
 
-.body
-{
-  margin:0px;
-      padding:0px;
+.second-box { 
+display: inline-block;
+width:500px;
+height:250px;
+font-size: 90px;
+margin-left: 1000px;
+    padding-top:10px;
+    padding-left:10px;
+letter-spacing: 10px;
+margin-right: auto;
+text-align:center;   
+      background-color:gainsboro;
+    font-family:"gotham",sans-serif;
+    font-variant: small-caps;
+    color: white;
+    
 }
 
-/* Start here */
+.third-box { 
+display: inline-block;
+width:500px;
+height:250px;
+font-size: 90px;
+margin-left: 20px;
+    padding-top:10px;
+    padding-left:10px;
+letter-spacing: 10px;
+margin-right: auto;   
+text-align:center;
+    background-color:gainsboro;
+    font-family:"Gotham",sans-serif;
+    font-variant: small-caps;
+        color: white;
+
+}
+.fourth-box { 
+display: inline-block;
+width:500px;
+height:250px;
+font-size: 90px;
+ padding-top:10px;
+padding-left:10px;
+letter-spacing: 10px;
+margin-left: 530px;   
+text-align:center;
+  background-color:gainsboro;
+    font-family:"gotham",sans-serif;
+    font-variant: small-caps;
+        color: white;
+
+
+}
+.fifth-box { 
+display: inline-block;
+width:500px;
+height:250px;
+font-size: 90px;    
+padding-top:10px;
+  padding-left:10px;
+letter-spacing: 10px;
+margin-left: 1000px;   
+text-align:center;
+      background-color:gainsboro;
+    font-family:"gotham",sans-serif;
+    font-variant: small-caps;
+        color: white;
+}
+
+
+.sixth-box { 
+display: inline-block;
+width:2000px;
+height:250px;
+font-size: 90px;    
+padding-top:10px;
+  padding-left:10px;
+letter-spacing: 10px;
+    margin-top: 20px;
+text-align:center;
+      background-color:#ffcc33;
+    font-family:"gotham",sans-serif;
+    font-variant: small-caps;
+        color: white;
+}
+
+
+
+
+
+
+
+
+
 

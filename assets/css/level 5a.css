@@ -4,51 +4,95 @@
 * {
   box-sizing: border-box;
 }
+
+.nextbutton
+{
+    margin-top:10px;
+margin-right:20px;
+    float:right;
+}
+
+.humans {
+        font-family:"gotham",sans-serif;
+    position:fixed;
+    z-index: -1;
+  width: 100%;
+    height: 80%;
+      left:5%;
+    top: 20s%;
+    font-size: 100px;
+    background-color:#ffcc33;
+ text-align: center;
+    display:inline-block;
+color:#ffcc33;}
+
+
+  @keyframes block 
+{
+    0%
+      { 
+        padding-top:0px;
+          padding-left:150px;
+        top:100px; 
+          opacity: 0;
+      } 
+      100%
+     
+      {        padding-top:0px;
+        padding-left:150px;
+    top: 150px;
+                opacity:1;
+    };
+    }
+    
+    .manifesto
+{
+        font-family:"gotham",sans-serif;
+    position:absolute;
+    padding-top:0px;
+          padding-left:150px;
+        top:150px; 
+    z-index: 2;
+    font-size: 100px;
+    color:white;
+    text-align: center;
+      animation: block 2s infinite;
+      transition-timing-function:ease-in-out;
+    animation-direction: alternate;
+    
+;
+}
+    
+
+
+.no
+{
+        font-family:"gotham",sans-serif;
+    z-index: -1;
+     width: 100%;
+    height: 100%;
+ 
+    font-size: 100px;
+      background-color:gainsboro; 
+     text-align: center;
+    color:white;
+    }
+
+.bigparagraph
+{
+    margin-top: 300px;
+        margin-left: 150px;
+    width:500px;
+        height:500px;
+    color:white;
+          font-family:"gotham",sans-serif;
+}
+
+    }
 body {
     margin: 0px;
     padding: 0px;
     
-}
-
-.nextbutton
-{
-margin-right:20px;
-       margin-top:10px;
-    float:right;
-}
-.yume
-{
-    padding-top: 100px;
-    margin-top: 0px;
-width:95px;
-height:95px;
-  border-bottom: 1px solid black;
-     border: 3px solid black;
-    
-
-    
-
-    }
-.yume2
-{width:95px;
-height:95px;
-     border: 3px solid black;
-    margin-left: 100px;
-    margin-top: 500px;
-}
-.everything
-{width:100px;
-height:100px;
-margin-left: 500px;
-    margin-top: 0px;
-padding: 50,50,50,50;
-position:fixed;
-}
-
-.body
-{
-  margin:0px;
-      padding:0px;
 }
 
 /* Start here */
